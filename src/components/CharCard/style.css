@@ -1,0 +1,72 @@
+.characters__charCardAlive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem 1rem;
+    background: rgba(0, 247, 82, 0.144);
+}
+
+.characters__charCardAlive:hover {
+    background: rgba(0, 247, 82, 0.534);
+    cursor: pointer;
+    transition: 0.333s;
+}
+
+.characters__charCardAlive img {
+    width: 150px;
+}
+
+
+
+.characters__charCardDead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem 1rem;
+    background: rgba(247, 0, 41, 0.144);
+}
+
+.characters__charCardDead:hover {
+    background: rgba(247, 0, 41, 0.514);
+    cursor: pointer;
+    transition: 0.333s;
+}
+
+.characters__charCardDead img {
+    width: 150px;
+}
+
+
+.characters__charCardUnknown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem 1rem;
+    background: rgba(156, 0, 247, 0.144);
+}
+
+.characters__charCardUnknown:hover {
+    background: rgba(156, 0, 247, 0.568);
+    cursor: pointer;
+    transition: 0.333s;
+}
+
+.characters__charCardUnknown img {
+    width: 150px;
+}
+
+@media(min-width: 1400px) {
+    .characters__charCardUnknown img {
+        width: 200px;
+    }
+    .characters__charCardAlive img {
+        width: 200px;
+    }
+
+    .characters__charCardDead img {
+        width: 200px;
+    }
+}
